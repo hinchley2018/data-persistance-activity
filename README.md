@@ -10,6 +10,10 @@
 - [ ] When items are added to a cart store them in localStorage
 - [ ] Retrieve the user's items in cart from localStorage when the cart.html page loads and display them
 
+## Bonus Tasks
+- [ ] Add item count to index.html using items in cart
+- [ ] Add total price to cart.html using items in cart
+
 # Instructions
 - Fork this project to your GitHub
 - Clone your copy locally

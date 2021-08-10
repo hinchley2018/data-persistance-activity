@@ -7,7 +7,7 @@
         <div>
             <h1 id="greet-user"> </h1>
             <!--https://i.pinimg.com/originals/e7/68/b3/e768b31d7f2706bc4d6f052f85e8c2e5.jpg-->
-            <img alt="picture of shopping cart" src="cart.jpg">
+            <img alt="picture of shopping cart" src="assets/cart.jpg">
             <p id="item-count"></p>
         </div>
         <h2>Select some products you would like to purchase</h2>
@@ -15,21 +15,21 @@
         <ul id="products" class="products">
             <li>
                 <h3>Duct tape</h3>
-                <p><b></b></p>
-                <img alt="" src="assets/duct-tape.png"/>
-                <button>Add to Cart</button>
+                <p><b>$4.72</b></p>
+                <img alt="duct tape" src="assets/duct-tape.png"/>
+                <button onclick="addToCart('Duct tape', 4.72, 'assets/duct-tape.png')">Add to Cart</button>
             </li>
             <li>
-                <h3>Mac book pro</h3>
-                <p><b></b></p>
-                <img alt="" src="assets/macbookpro.png"/>
-                <button>Add to Cart</button>
+                <h3>Macbook Pro</h3>
+                <p><b>$2599</b></p>
+                <img alt="Macbook pro" src="assets/macbookpro.png"/>
+                <button onclick="addToCart('Macbook Pro', 2599,'assets/macbookpro.png')">Add to Cart</button>
             </li>
             <li>
                 <h3>Mouse</h3>
-                <p><b></b></p>
-                <img alt="" src="assets/mouse.png"/>
-                <button>Add to Cart</button>
+                <p><b>$29.99</b></p>
+                <img alt="Gaming Mouse" src="assets/mouse.png"/>
+                <button onclick="addToCart('Mouse',29.99,'assets/mouse.png')">Add to Cart</button>
             </li>
         </ul>
         <script src="./index.js"></script>
