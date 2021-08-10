@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Gaming Mouse",
+        "price": "$29.99",
+        "imgPath": "assets/mouse.png"
+    },
+    {
+        "title": "MacBook Pro",
+        "price": "$2599",
+        "imgPath": "assets/macbookpro.png"
+    },
+    {
+        "title": "Duct Tape",
+        "price": "$4.72",
+        "imgPath": "assets/duct-tape.png"
+    }
+]
