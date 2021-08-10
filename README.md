@@ -8,4 +8,18 @@
 - [ ] Store the user's name in localStorage when they first visit the site
 - [ ] Retrieve the user's name from localStorage when the page loads and display it
 - [ ] When items are added to a cart store them in localStorage
-- [ ] Retrieve the user's items in cart from localStorage when the page loads and display them
+- [ ] Retrieve the user's items in cart from localStorage when the cart.html page loads and display them
+
+# Instructions
+- Fork this project to your GitHub
+- Clone your copy locally
+- Complete the above tasks locally
+- Track your files with git and push to your repo
+- Submit a Pull Request of your changes to my repo
+
+
+## Extra info
+- This activity builds on everything we have learned so far... 
+- some of the stuff I used to make this website is in the second lecture, don't worry about it yet.
+- focus on the localStorage tasks I have above and it will make sense at the end of the Module 6
+- [items.json](items.json) holds examples of store items, we learned about JSON in lecture its an important concept to become familiar with
