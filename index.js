@@ -11,8 +11,9 @@ userName = window.prompt("Welcome to our e-commerce site! Please enter your name
 
 
 //Note: this displays the user
-let userH1 = document.getElementById("greet-user");
-userH1.textContent = userName;
+// let userH1 = document.getElementById("greet-user");
+let userH1 = document.getElementById("brand");
+userH1.innerHTML = `Welcome ${userName}`;
 
 //Note: we haven't learned about these yet, but its just code that runs when "Add to cart" button is clicked
 function addToCart(title, price, picturePath){
