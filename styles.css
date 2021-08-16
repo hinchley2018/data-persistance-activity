@@ -37,3 +37,10 @@ img {
     justify-content:space-between;
     background:transparent;
 }
+
+
+.productInCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
